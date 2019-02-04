@@ -3,7 +3,7 @@
 ### System Diagram
 <img align = center src = "https://github.com/leonshen95/EC500/blob/master/EC500%20diagram%201.jpg?raw=true">
  
-## Database Module
+## Database Module(Yuxuan Su)
 ### Rough code for authentation
 ```
 class authentation:
@@ -54,7 +54,7 @@ class infoDB:
 ```
 
 
-## Display Module
+## Display Module(Haoyu Xu and Leyang Shen)
 
 
 ### Input:
