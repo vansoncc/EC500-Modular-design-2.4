@@ -1,6 +1,7 @@
 # EC500-2.4
 
-### System Diagram
+### System Diagram(Leyang Shen)
+
 <img align = center src = "https://github.com/leonshen95/EC500/blob/master/EC500%20diagram%201.jpg?raw=true">
  
 ## Database Module(Yuxuan Su)
