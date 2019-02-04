@@ -112,7 +112,7 @@ class outputAlert:
 
     def receive_basic_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
 
-    def send_basic_input_data(BasicResult);
+    def send_basic_input_data(BasicResult, BasicData);
 
     def receive_AI_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
 
