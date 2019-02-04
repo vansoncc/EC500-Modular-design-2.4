@@ -54,6 +54,32 @@ class infoDB:
 | ID | AGE | gender |.....| Pulse | Heart Rate | Blood Pressure |
 ```
 
+## Analyzer Module(Yicun Hou & Yang Qiao)
+### Input: Analog waveform of 
+Blood pressure, 
+Heart rate, 
+Heart Oxygen level,
+Body temperature
+
+### Output:
+Signal loss alert;
+Shock alert;
+Oxygen supplemental alert;
+Fever sign;
+Hypotension or hypertension sign.
+
+### Definition:
+Heart_Rate:
+    Module to find signal loss to and shock alert to report emergency
+
+Systolic_BP & Diastolic_BP:
+   To check if patient’s blood pressure is in a normal scope
+
+Heart_O2_Level:
+    Check if the Oxygen Level under a normal range
+
+Body_temp:
+    Check if the body temperature is so high that the patient catch a fever
 
 ## Display Module(Haoyu Xu & Leyang Shen)
 
