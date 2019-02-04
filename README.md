@@ -107,11 +107,13 @@ Normal parameters: Pulse, Blood pressure, Blood Oxygen
 * Get future prediction based on AI module
 
 ### Class and Interface:
-* def receive_basic_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
+```
+def receive_basic_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
 
-* def send_basic_input_data(BasicResult);
+def send_basic_input_data(BasicResult);
 
-* def receive_AI_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
+def receive_AI_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
 
-* def send_AI_input_data(AIResult);
+def send_AI_input_data(AIResult);
 
+```
