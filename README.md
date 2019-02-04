@@ -107,17 +107,34 @@ Normal parameters: Pulse, Blood pressure, Blood Oxygen
 * Get future prediction based on AI module
 
 ### Class and Interface:
-```
-class outputAlert:
+* def receive_basic_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
 
-    def receive_basic_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
+* def send_basic_input_data(BasicResult);
 
-    def send_basic_input_data(BasicResult);
+* def receive_AI_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
 
-    def receive_AI_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
-
-    def send_AI_input_data(AIResult);
-    
+* def send_AI_input_data(AIResult);
 
 
-```
+## AI Module (Wanxuan Chen & YunCheng Zhu)
+
+### Input:
+* Database Data:
+* Measurement Time: The Measurement time
+* Pulse: Measurement Data
+* Blood Oxygen: Measurement Data
+* Blood Pressure:Measurement Data
+
+### Output:
+* Pulse Prediction Trend
+* Blood Oxygen Prediction Trend
+* Blood Pressure Prediction Trend
+* Alert: When the Prediction Trends are going abnormal, it will display a prediction alert.
+
+
+### Query the Data From DB:
+* Extract the patient data from database and separate as three group: Pulse, Blood Oxygen and Blood Pressure. Return these data.
+
+### AI Prediction Module:
+* Input three groups data into the AI module to do the prediction. The Module will give the prediction feedback( like the  blood pressure will decrease and become worse)
+* Also we set some Alert values, once one of these three values under or upper a danger value, it will give an alert. 
