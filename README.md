@@ -55,7 +55,8 @@ class infoDB:
 ```
 
 ## Analyzer Module(Yicun Hou & Yang Qiao)
-### Input: Analog waveform of 
+### Input: 
+Analog waveform of:
 Blood pressure, 
 Heart rate, 
 Heart Oxygen level,
