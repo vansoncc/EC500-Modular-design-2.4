@@ -1,7 +1,7 @@
 ## Module: Output alert
 
 ### System Diagram
-<img align = center src = "https://github.com/xhyzzZ/EC500/blob/master/EC500%20diagram%20.jpg">
+<img align = center src = "https://github.com/leonshen95/EC500/blob/master/EC500%20diagram%201.jpg?raw=true">
  
 ### Input:
 * Emergency: when the data is analyzed to be vital 
