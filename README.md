@@ -108,12 +108,16 @@ Normal parameters: Pulse, Blood pressure, Blood Oxygen
 
 ### Class and Interface:
 ```
-def receive_basic_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
+class outputAlert {
 
-def send_basic_input_data(BasicResult);
+    def receive_basic_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
 
-def receive_AI_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
+    def send_basic_input_data(BasicResult);
 
-def send_AI_input_data(AIResult);
+    def receive_AI_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
+
+    def send_AI_input_data(AIResult);
+    
+}
 
 ```
