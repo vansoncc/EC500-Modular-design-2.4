@@ -12,10 +12,10 @@ def receive_basic_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hyp
 	return BasicResult
 
 
-def send_basic_input_data(BasicResult);
+def send_basic_input_data(BasicResult, BasicData);
 	##receive the result and show it on terminal or web page
 	analyze(BasicResult)
-	return sentData;
+	return sentData, BasicData;
 
 def receive_AI_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
 	##recevie AI data from input module, then analyze it using some judge functions to generate boolean result
