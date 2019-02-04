@@ -45,5 +45,7 @@ class infoDB:
         self.bioInfo = bioInfo
 ```
 ##### DB structure
+```
 ----Personal Info---- | --------------- Bio Info ---------------|
 | ID | AGE | gender |.....| Pulse | Heart Rate | Blood Pressure |
+```
