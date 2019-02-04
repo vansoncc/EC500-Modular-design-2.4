@@ -54,7 +54,7 @@ class infoDB:
 ```
 
 
-## Display Module(Haoyu Xu and Leyang Shen)
+## Display Module(Haoyu Xu & Leyang Shen)
 
 
 ### Input:
