@@ -107,14 +107,11 @@ Normal parameters: Pulse, Blood pressure, Blood Oxygen
 * Get future prediction based on AI module
 
 ### Class and Interface:
-class Alerts {
-* Objects: Signal loss alert, Shock alert, Oxygen supplement alert, Prediction alert
-* method: receiveAlerts(Objects), judgeAlerts(Objects), sendAlerts()
+def receive_basic_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
 
-}
+def send_basic_input_data(BasicResult);
 
-class normalParameter {
-* Objects: Pulse, Blood pressure, Blood Oxygen
-* method: receiveParameter(Objects), handleParameter(Objects), sendParameter(),
+def receive_AI_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
 
-}
+def send_AI_input_data(AIResult);
+
