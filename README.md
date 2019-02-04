@@ -1,5 +1,8 @@
 # EC500-2.4
 
+### System Diagram
+<img align = center src = "https://github.com/leonshen95/EC500/blob/master/EC500%20diagram%201.jpg?raw=true">
+ 
 ## Database Module
 ### Rough code for authentation
 ```
@@ -53,9 +56,7 @@ class infoDB:
 
 ## Display Module
 
-### System Diagram
-<img align = center src = "https://github.com/leonshen95/EC500/blob/master/EC500%20diagram%201.jpg?raw=true">
- 
+
 ### Input:
 * Emergency: when the data is analyzed to be vital 
 * Signal loss alert: when sensor is lost attached
