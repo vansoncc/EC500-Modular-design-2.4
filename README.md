@@ -108,7 +108,7 @@ Normal parameters: Pulse, Blood pressure, Blood Oxygen
 
 ### Class and Interface:
 ```
-class outputAlert {
+class outputAlert:
 
     def receive_basic_iuput_data(Singal_Loss, Shock_Alert, Oxygen_Supply, Fever, Hypotension, Hypertension);
 
@@ -118,6 +118,6 @@ class outputAlert {
 
     def send_AI_input_data(AIResult);
     
-}
+
 
 ```
