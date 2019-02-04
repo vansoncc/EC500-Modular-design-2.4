@@ -1,6 +1,5 @@
-def Query_Data_From_Database(time):
+def Query_Data_From_Database():
     ## connect database, query previous one day data from Database
-
     return PreviousData
 
 def Get_Real_Time_Data():
