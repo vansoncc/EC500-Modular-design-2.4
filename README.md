@@ -46,6 +46,6 @@ class infoDB:
 ```
 ##### DB structure
 ```
-----Personal Info---- | --------------- Bio Info ---------------|
+|----Personal Info---- | --------------- Bio Info ---------------|
 | ID | AGE | gender |.....| Pulse | Heart Rate | Blood Pressure |
 ```
