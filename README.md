@@ -53,6 +53,33 @@ class infoDB:
 |----Personal Info---- | --------------- Bio Info ---------------|
 | ID | AGE | gender |.....| Pulse | Heart Rate | Blood Pressure |
 ```
+## Input Module(Boyang Zhou)
+### Input:
+# Waveforms used for health detection:
+Heart rate
+Blood pressure
+Blood oxygen
+Temperature
+# User information used for data archiving and access verification:
+User_id
+Age
+Gender
+
+### Output:
+# All the waveforms mentioned above(with preprocessing)
+# Data encapsulation used for databse storage
+
+### Class and Interface:
+```
+class intput:
+    def __init__(self, user_id, age, gender, heartbeat, blood_pressure, blood_oxygen, temperature)
+    
+    def filter(data, noise, data_type)
+    
+    def return data(dic)
+    
+    def return_request(wire)
+```
 
 ## Analyzer Module(Yicun Hou & Yang Qiao)
 ### Input: 
