@@ -55,19 +55,19 @@ class infoDB:
 ```
 ## Input Module(Boyang Zhou)
 ### Input:
-# Waveforms used for health detection:
+* Waveforms used for health detection:
 Heart rate
 Blood pressure
 Blood oxygen
 Temperature
-# User information used for data archiving and access verification:
+* User information used for data archiving and access verification:
 User_id
 Age
 Gender
 
 ### Output:
-# All the waveforms mentioned above(with preprocessing)
-# Data encapsulation used for databse storage
+* All the waveforms mentioned above(with preprocessing)
+* Data encapsulation used for databse storage
 
 ### Class and Interface:
 ```
