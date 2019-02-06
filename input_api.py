@@ -1,5 +1,5 @@
 class intput
-    def __init__(self, user_id, age, gender, heartrate, blood_pressure, blood_oxygen, temperature):
+    def __init__(self, user_id, age, gender, heartrate, Systolic_BP, DIastolic_BP, blood_oxygen, temperature):
         # self.user_id = user_id
         # self.age = age
         # self.gender = gender
@@ -7,9 +7,9 @@ class intput
         # self.blood_pressure = blood_pressure
         # self.blood_oxygen = blood_oxygen
         # self.temperature = temperature
-        Systolic_BP
-        DIastolic_BP
-        self.dic = {"user_id": user_id， "gender": gender, "heartrate": heartrate, "blood_pressure":blood_pressure, "blood_oxygen": blood_oxygen, "temperature": temperature, "time": time}
+        #Systolic_BP
+        #Diastolic_BP
+        self.dic = {"user_id": user_id， "gender": gender, "heartrate": heartrate, "Diastolic_BP": Diastolic_BP, "Systolic_BP":Systolic_BP, "blood_oxygen": blood_oxygen, "temperature": temperature, "time": time}
 
     def filter(data, noise, data_type):
         wrong = -100
@@ -31,7 +31,7 @@ class intput
         if (wire == user_db):
             return user_info
         if (wire == data_db):
-            return user_data & user_ing
+            return user_data & user_info
 
 
 
