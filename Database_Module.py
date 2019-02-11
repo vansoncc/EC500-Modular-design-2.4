@@ -20,10 +20,10 @@ data format of infoDB:
 
 class DataBaseModule:
     
-    def __init__(self,infoDB,authDB):
+    def __init__(self):
         self.infoDB = infoDB
-        self.authDB = authDB
-        self.auth = False
+        self.authDB = authenDB
+        self.auth = True
     
 
     def authen(self, username, password):
@@ -33,9 +33,11 @@ class DataBaseModule:
         :param password: user password
         :return void
         """
-        if self.authDB[username] == password:
+        print(username,password)
+        if self.authDB.get(username) == password:
             print("Authentication Succeed!")
             self.auth = True
+            print("true")
         else:
             print("Try username and password again")
 
